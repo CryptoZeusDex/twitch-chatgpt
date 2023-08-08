@@ -130,4 +130,4 @@ app.get('/gpt/:text', async (req, res) => {
     }
     
 })
-app.listen(process.env.PORT || 8080)
+app.listen(process.env.PORT || 4000)
